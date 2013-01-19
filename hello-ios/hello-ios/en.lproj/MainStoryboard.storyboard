@@ -21,11 +21,31 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3H5-Tk-itO">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="249" id="N9M-OX-6Er"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Type Your Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKD-vQ-vi9">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133" id="3kE-fR-xkf"/>
+                                    <constraint firstAttribute="height" constant="20" id="b3H-3u-pfc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="wZh-1x-yyb" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Dfk-hI-rpD"/>
-                            <constraint firstItem="wZh-1x-yyb" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="default" id="pQT-gn-tLf"/>
+                            <constraint firstItem="3H5-Tk-itO" firstAttribute="centerX" secondItem="qKD-vQ-vi9" secondAttribute="centerX" type="default" id="6am-lH-LP9"/>
+                            <constraint firstItem="3H5-Tk-itO" firstAttribute="leading" secondItem="wZh-1x-yyb" secondAttribute="leading" type="default" id="D3K-6Y-qzn"/>
+                            <constraint firstItem="wZh-1x-yyb" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="MzS-Ks-LnU"/>
+                            <constraint firstItem="3H5-Tk-itO" firstAttribute="top" secondItem="qKD-vQ-vi9" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="NVH-ej-5BV"/>
+                            <constraint firstItem="3H5-Tk-itO" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="ZcF-kR-5LR"/>
+                            <constraint firstItem="qKD-vQ-vi9" firstAttribute="top" secondItem="wZh-1x-yyb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="fFh-Qd-rJq"/>
                         </constraints>
                     </view>
                 </viewController>
