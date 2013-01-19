@@ -37,6 +37,21 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="And press below button" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IkJ-Pl-isS">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzI-N0-Lcv">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Click me :)">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -44,8 +59,12 @@
                             <constraint firstItem="3H5-Tk-itO" firstAttribute="leading" secondItem="wZh-1x-yyb" secondAttribute="leading" type="default" id="D3K-6Y-qzn"/>
                             <constraint firstItem="wZh-1x-yyb" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="MzS-Ks-LnU"/>
                             <constraint firstItem="3H5-Tk-itO" firstAttribute="top" secondItem="qKD-vQ-vi9" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="NVH-ej-5BV"/>
-                            <constraint firstItem="3H5-Tk-itO" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="ZcF-kR-5LR"/>
+                            <constraint firstItem="IkJ-Pl-isS" firstAttribute="centerX" secondItem="3H5-Tk-itO" secondAttribute="centerX" type="default" id="OGU-Ut-a1u"/>
+                            <constraint firstItem="xzI-N0-Lcv" firstAttribute="top" secondItem="3" secondAttribute="top" constant="199" id="Qcu-ZX-Q4I"/>
+                            <constraint firstItem="IkJ-Pl-isS" firstAttribute="top" secondItem="3H5-Tk-itO" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Vn8-Zb-FPC"/>
+                            <constraint firstItem="IkJ-Pl-isS" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="WAd-aZ-7uL"/>
                             <constraint firstItem="qKD-vQ-vi9" firstAttribute="top" secondItem="wZh-1x-yyb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="fFh-Qd-rJq"/>
+                            <constraint firstItem="xzI-N0-Lcv" firstAttribute="centerX" secondItem="IkJ-Pl-isS" secondAttribute="centerX" type="default" id="tT1-YD-nc4"/>
                         </constraints>
                     </view>
                 </viewController>
